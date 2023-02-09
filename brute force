@@ -1,0 +1,12 @@
+def strangeCounter(t):
+    
+    count=4
+    temp=2*3
+    for i in range(t):
+        
+        if count!=1:
+            count-=1
+        else:
+            count=temp
+            temp=2*count
+    return count
